@@ -1,0 +1,5 @@
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+   @for (url of imgUrl(); track $index) {
+      <app-gifs-list-item [url]="url" ></app-gifs-list-item>
+   }
+</div>
